@@ -1,0 +1,12 @@
+public class z extends HandValue {
+
+  public z(Card[] hand){
+    super(z);
+    
+  }
+  @Override
+  public int compareHands(HandValue other) {
+    z otherRoyal = (z) other;
+    return 0;
+  } 
+}
